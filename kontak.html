@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hubungi Organisasi Mahasiswa Harmoni.">
+  <title>Kontak | Harmoni</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">H</span><span>Harmoni<span class="brand-sub">Organisasi Mahasiswa</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="nav-links" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a><a href="profil.html">Profil</a><a href="kegiatan.html">Kegiatan</a><a class="active" href="kontak.html">Kontak</a>
+        <button class="theme-toggle" id="theme-toggle" type="button">☾ Mode Gelap</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Mari terhubung</p><h1>Kontak Harmoni</h1><p>Ada pertanyaan, masukan, atau ide kegiatan? Kirim pesan melalui formulir berikut.</p></div></section>
+    <section class="section"><div class="container contact-layout">
+      <div class="contact-info"><p class="eyebrow">Kami siap mendengar</p><h2>Mulai percakapan.</h2><p>Silakan hubungi pengurus melalui informasi kontak contoh di bawah ini. Ganti dengan informasi organisasi kalian yang sebenarnya sebelum dikumpulkan.</p>
+        <div class="contact-item"><span class="contact-icon">✉</span><div><strong>Email</strong><p>harmoni@example.com</p></div></div>
+        <div class="contact-item"><span class="contact-icon">⌖</span><div><strong>Sekretariat</strong><p>Area kegiatan mahasiswa, kampus</p></div></div>
+        <div class="contact-item"><span class="contact-icon">◷</span><div><strong>Waktu layanan</strong><p>Senin–Jumat, 09.00–15.00</p></div></div>
+        <div class="notice"><strong>Catatan demo</strong><p>Formulir ini hanya memvalidasi input di browser. Pesan tidak dikirim ke email atau server.</p></div>
+      </div>
+      <form class="contact-form" id="contact-form" novalidate>
+        <h2>Kirim Pesan</h2><p class="form-intro">Isi semua kolom yang tersedia.</p>
+        <label for="nama">Nama lengkap</label><input id="nama" name="nama" type="text" placeholder="Masukkan nama Anda">
+        <label for="email">Alamat email</label><input id="email" name="email" type="email" placeholder="nama@email.com">
+        <label for="pesan">Pesan atau usulan</label><textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini"></textarea>
+        <button class="button button-primary button-full" type="submit">Periksa Pesan →</button>
+        <p id="status-form" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark">H</span><span>Harmoni<span class="brand-sub">Organisasi Mahasiswa</span></span></a><p>Tempat ide bertemu aksi.</p><p class="copyright">© <span class="current-year">2026</span> Harmoni. Dibuat bersama mahasiswa.</p></div></footer>
+</body>
+</html>
